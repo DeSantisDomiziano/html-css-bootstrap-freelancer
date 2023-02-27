@@ -1,6 +1,7 @@
 .debug [class^="col"] {
-    background-color: grey;
+    background-color: rgba(190, 241, 8, 0.434);
     border: 1px solid black;
+    height: 80px;
 }
 
 .debug #site_header {
