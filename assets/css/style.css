@@ -1,17 +1,16 @@
 .debug [class^="col"] {
-    background-color: rgba(190, 241, 8, 0.434);
     border: 1px solid black;
     height: 80px;
 }
 
-.debug #site_header {
-    height: 80px;
-}
 /* ################### /.DEBUG ####################### */
 
 
 :root {
     --bs-header: #2c3e50;
+    --bs-main: #1abc9c;
+    --bs-f-top: #3a546d;
+    --bs-f-bottom: #2c3e50;
 }
 /* ################### /.COLOR ####################### */
 
@@ -21,3 +20,36 @@
     background-color: var(--bs-header);
 }
 /* ################### /.HEADER ####################### */
+
+section:nth-child(odd) {
+    background-color: var(--bs-main);
+}
+
+
+
+/* ################### /.MAIN ####################### */
+
+#footer_top {
+    background-color: var(--bs-f-top);
+}
+
+#footer_bottom {
+    background-color: var(--bs-f-bottom);
+}
+
+
+/* ################### /.FOOTER ####################### */
+
+
+
+
+@media screen and (min-width: 576px) {
+
+    .container_sm {
+        max-width: 528px;
+    }
+    
+}
+
+/* ################### /.RESPONSIVE ####################### */
+
