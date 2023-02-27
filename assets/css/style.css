@@ -1,0 +1,22 @@
+.debug [class^="col"] {
+    background-color: grey;
+    border: 1px solid black;
+}
+
+.debug #site_header {
+    height: 80px;
+}
+/* ################### /.DEBUG ####################### */
+
+
+:root {
+    --bs-header: #2c3e50;
+}
+/* ################### /.COLOR ####################### */
+
+
+
+#site_header {
+    background-color: var(--bs-header);
+}
+/* ################### /.HEADER ####################### */
