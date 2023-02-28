@@ -30,6 +30,14 @@ i {
     left: 0;
 }
 
+.form-control::placeholder {
+    color: black;
+    font-weight: 600;
+}
+
+.form-control {
+    font-weight: 600;
+}
 
 /* ################### /.UTILITIES ####################### */
 
