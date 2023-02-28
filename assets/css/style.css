@@ -16,6 +16,10 @@
 .bg_green {
     background-color: var(--bs-main);
 }
+
+.c_green {
+    color: var(--bs-main);
+}
 /* ################### /.COLOR ####################### */
 
 img {
@@ -41,6 +45,16 @@ i {
 
 .form-control {
     font-weight: 600;
+}
+
+.icon_border {
+    width: 30px;
+    aspect-ratio: 1/1;
+    font-size: 0.75rem;
+}
+
+.icon_border > * {
+    vertical-align: sub;
 }
 
 /* ################### /.UTILITIES ####################### */
