@@ -12,6 +12,10 @@
     --bs-f-top: #3a546d;
     --bs-f-bottom: #2c3e50;
 }
+
+.bg_green {
+    background-color: var(--bs-main);
+}
 /* ################### /.COLOR ####################### */
 
 img {
