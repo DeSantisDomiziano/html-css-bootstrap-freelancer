@@ -14,7 +14,21 @@
 }
 /* ################### /.COLOR ####################### */
 
+i {
+    margin-bottom: 0.5rem;
+}
 
+.star span {
+    height: 2px;
+    background: white;
+    position: relative;
+    bottom: 5px;
+    left: 0;
+    width: 10%;
+}
+
+
+/* ################### /.UTILITIES ####################### */
 
 #site_header {
     background-color: var(--bs-header);
