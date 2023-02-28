@@ -14,17 +14,20 @@
 }
 /* ################### /.COLOR ####################### */
 
+img {
+    max-width: 100% ;
+}
+
 i {
     margin-bottom: 0.5rem;
 }
 
 .star span {
     height: 2px;
-    background: white;
+    width: 10%;
     position: relative;
     bottom: 5px;
     left: 0;
-    width: 10%;
 }
 
 
